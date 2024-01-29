@@ -1,0 +1,81 @@
+[
+    {
+      "prefix": "/api/bdcia",
+      "target": "http://kubernetes.docker.internal:30001",
+      "service": "Servicio de BD CIA",
+      "ws":false
+    },
+    {
+      "prefix": "/api/bdservitorres",
+      "target": "http://kubernetes.docker.internal:30002",
+      "service": "Servicio de BD TYT",
+      "ws":false
+    },
+    {
+      "prefix": "/api/bdestiba",
+      "target": "http://kubernetes.docker.internal:30003",
+      "service": "Servicio de BD ESTIBAS",
+      "ws":false
+    },
+    {
+      "prefix": "/api/bdoperativo",
+      "target": "http://kubernetes.docker.internal:30004",
+      "service": "Servicio de BD OPERATIVOTYT",
+      "ws":false
+    },
+    {
+      "prefix": "/api/bdtolepu",
+      "target": "http://kubernetes.docker.internal:30005",
+      "service": "Servicio de TOLEPU",
+      "ws":false
+    },
+    {
+      "prefix": "/api/comex",
+      "target": "http://kubernetes.docker.internal:30010",
+      "service": "Servicio de Status Comex",
+      "ws":false
+    },
+    {
+      "prefix": "/api/tracking",
+      "target": "http://kubernetes.docker.internal:30011",
+      "service": "Servicio de Tracking",
+      "ws":false
+    },
+    {
+      "prefix": "/api/orders",
+      "target": "http://kubernetes.docker.internal:30012",
+      "service": "Servicio de Orders",
+      "ws":false
+    },
+    {
+      "prefix": "/api/seguimientos",
+      "target": "http://kubernetes.docker.internal:30013",
+      "service": "Servicio de seguimientos",
+      "ws":false
+    },
+    {
+      "prefix": "/api/reporteria",
+      "target": "http://kubernetes.docker.internal:30014",
+      "service": "Servicio de Reporteria",
+      "ws":false
+    },
+    {
+      "prefix": "/api/alerts",
+      "target": "http://kubernetes.docker.internal:30015",
+      "service": "Servicio de Alertas/Notificaciones",
+      "ws":true
+    },
+    {
+      "prefix": "/api/excelprocessor",
+      "target": "http://kubernetes.docker.internal:30016",
+      "service": "Servicio de EXCEL ",
+      "ws":true
+    },
+    {
+      "prefix": "/api/ordentramite",
+      "target": "http://kubernetes.docker.internal:30017",
+      "service": "Servicio de ordentramite ",
+      "ws":false
+    }
+  ]
+  
